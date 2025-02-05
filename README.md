@@ -117,10 +117,11 @@ The **GPA scores** are also **right-skewed**, with many applicants having **high
 
 ---
 
-## **📬 Connect With Me**
+## 📩 **Connect With Me**
 📧 **Email:** emadhume@smu.edu  
 🔗 **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/evidence-madhume-874540204/)  
-📂 **GitHub Portfolio:** [MyGitHub](https://github.com/EvidenceM290/EvidenceM290/)
+🌍 **GitHub**: [EvidenceM290](https://github.com/EvidenceM290)  
+
 
 ---
 
