@@ -1,33 +1,32 @@
 
 ---
 
-# **📊 Credit Risk Analysis: Predicting Loan Defaults**  
+# **🎓 Graduate Admissions Prediction Model**
+## **📊 Logistic Regression & Decision Tree (CART) Analysis**
+This project analyzes **graduate school admissions** based on **GRE scores, GPA, and school ranking** using two classification models:
+1. **Logistic Regression**
+2. **Decision Tree (CART)**  
 
-## 🚀 **Project Overview**  
-This project analyzes **loan applicant data** to predict **default risk** using **two classification models**:  
-1. **Logistic Regression**  
-2. **Decision Tree**  
-
-By leveraging **financial history, demographic features, and past repayments**, we can help financial institutions **identify high-risk borrowers** and make informed lending decisions.
+The goal is to predict whether an applicant **will be admitted (1) or not admitted (0)** based on their academic profile.
 
 📌 **Key Highlights**
-- 🏦 **Business Problem:** Improve loan approval strategies by identifying risky applicants.
-- 🔍 **Feature Engineering:** Data cleaning, handling missing values, and variable transformation.
+- 🏫 **Business Problem:** Identify key factors influencing graduate school admissions.
+- 🔍 **Feature Engineering:** Data cleaning, outlier detection, and statistical transformations.
 - 🏆 **Modeling Approach:** Logistic Regression & Decision Tree.
-- 📊 **Evaluation Metrics:** Accuracy, Precision, Recall, AUC (ROC Curve), True Positive Rate.
+- 📊 **Evaluation Metrics:** Accuracy, Precision, Recall, ROC Curve (AUC), True Positive Rate.
 
 ---
 
 ## **📂 Project Structure**
 ```
-📂 credit-risk-analysis/
+📂 graduate-admissions-model/
  ├── 📂 data/ (Datasets)
- │   ├── loan_data.csv *(Raw data file)*
- │   ├── processed_loan_data.csv *(Cleaned dataset)*
+ │   ├── admission.csv *(Raw data file)*
+ │   ├── cleaned_admission.csv *(Processed dataset)*
  │  
- ├── 📂 notebooks/ *(Knime, Jupyter Notebooks & R scripts for model building)*
- │   ├── Credit Risk Analysis.knwf *(Exploratory Data Analysis & Model Training)*
- │   ├── Credit Risk Analysis.knwf *(Confusion Matrix, ROC Curve, AUC computation)*
+ ├── 📂 notebooks/ *(Jupyter Notebooks & R scripts for model building)*
+ │   ├── admission_prediction.ipynb *(Exploratory Data Analysis & Model Training)*
+ │   ├── model_evaluation.ipynb *(Confusion Matrix, ROC Curve, AUC computation)*
  │  
  ├── 📂 images/ *(Screenshots & visualizations for better insights)*
  │   ├── Modelflow.png *(KNIME Workflow Overview)*
@@ -50,40 +49,40 @@ By leveraging **financial history, demographic features, and past repayments**, 
 ---
 
 ## **📌 Workflow Overview**
-This **KNIME Workflow** outlines the complete **data preprocessing, model training, and evaluation process**.
+This **KNIME Workflow** outlines the full **data preprocessing, model training, and evaluation process**.
 
-![Workflow](https://raw.githubusercontent.com/EvidenceM290/credit-risk-analysis/main/images/Modelflow.png)
+![Workflow](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Modelflow.png)
 
 ---
 
 ## **📈 Results & Visualizations**
 ### **1️⃣ Model Performance Metrics**
 #### **🔹 Decision Tree Model Performance**
-The **Decision Tree Model** had a **True Positive Rate of 37.5%**, meaning it identified **more actual defaults** compared to Logistic Regression.
+The **Decision Tree Model** achieved a **True Positive Rate (TPR) of 37.5%**, meaning it correctly predicted **more actual admissions** compared to Logistic Regression.
 
 📌 **Confusion Matrix & Metrics**:  
-![Decision Tree Metrics](https://raw.githubusercontent.com/EvidenceM290/credit-risk-analysis/main/images/Decision%20Model%20Metrics.png)
+![Decision Tree Metrics](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Decision%20Model%20Metrics.png)
 
 ---
 
 #### **🔹 Logistic Regression Model Performance**
-The **Logistic Regression Model** had a **True Positive Rate of only 18.8%**, meaning it struggled to correctly classify actual defaults.
+The **Logistic Regression Model** had a **True Positive Rate of only 18.8%**, meaning it struggled to correctly classify admitted students.
 
 📌 **Confusion Matrix & Metrics**:  
-![Logistic Regression Metrics](https://raw.githubusercontent.com/EvidenceM290/credit-risk-analysis/main/images/Logit%20model-metrics.png)
+![Logistic Regression Metrics](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Logit%20model-metrics.png)
 
 ---
 
 ### **2️⃣ ROC Curve Analysis**
 #### **🔹 Decision Tree ROC Curve**
-The **Decision Tree Model achieved an AUC score of 0.592**, showing moderate predictive power.
+The **Decision Tree Model achieved an AUC score of 0.592**, indicating moderate predictive power.
 
-![Decision Tree ROC](https://raw.githubusercontent.com/EvidenceM290/credit-risk-analysis/main/images/Decision%20Tree%20ROC%20Curve.png)
+![Decision Tree ROC](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Decision%20Tree%20ROC%20Curve.png)
 
 #### **🔹 Logistic Regression ROC Curve**
-The **Logistic Regression Model had an AUC score of 0.665**, performing slightly better at differentiating defaults.
+The **Logistic Regression Model had an AUC score of 0.665**, showing slightly better performance at ranking high-potential applicants.
 
-![Logistic Regression ROC](https://raw.githubusercontent.com/EvidenceM290/credit-risk-analysis/main/images/Logit%20ROC%20Curve.png)
+![Logistic Regression ROC](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Logit%20ROC%20Curve.png)
 
 ---
 
@@ -91,30 +90,47 @@ The **Logistic Regression Model had an AUC score of 0.665**, performing slightly
 The **bar chart below shows admission rates by school rank**. **Higher-ranked schools (Rank 1) have a significantly higher admission rate (54.1%)** compared to lower-ranked schools (17.9% for Rank 4).
 
 📌 **Admission Rate by School Rank**:  
-![Admission by Rank](https://raw.githubusercontent.com/EvidenceM290/credit-risk-analysis/main/images/Admission%20by%20rank.png)
+![Admission by Rank](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Admission%20by%20rank.png)
 
 ---
 
 ### **4️⃣ Feature Distributions**
 #### **🔹 GRE Score Distribution**
-This histogram shows the distribution of **GRE scores** in the dataset. It appears **slightly right-skewed**, indicating more high GRE scores.
+This histogram shows the distribution of **GRE scores** in the dataset. The scores are **slightly right-skewed**, indicating a concentration of high scores.
 
-![GRE Distribution](https://raw.githubusercontent.com/EvidenceM290/credit-risk-analysis/main/images/Distribution%20of%20GRE.png)
+![GRE Distribution](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Distribution%20of%20GRE.png)
 
 #### **🔹 GPA Score Distribution**
-The **GPA scores** are also **right-skewed**, with a concentration of students having high GPAs.
+The **GPA scores** are also **right-skewed**, with many applicants having **higher GPAs**.
 
-![GPA Distribution](https://raw.githubusercontent.com/EvidenceM290/credit-risk-analysis/main/images/GPA%20Distribution.png)
+![GPA Distribution](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/GPA%20Distribution.png)
 
 ---
 
 ## **🔹 Key Takeaways**
-✔ **Decision Tree Model** is **better at predicting actual defaults (37.5% True Positive Rate) than Logistic Regression (18.8%)**.  
-✔ **Logistic Regression** has **higher AUC (0.665) than Decision Tree (0.592)**, meaning it’s slightly better at ranking high-risk applicants.  
-✔ **Admission rates drop significantly for lower-ranked schools**, impacting acceptance chances.  
-✔ **GRE and GPA distributions are skewed**, indicating high competition among applicants.  
+✔ **Decision Tree Model** is **better at predicting actual admissions (37.5% TPR) than Logistic Regression (18.8%)**.  
+✔ **Logistic Regression has a higher AUC (0.665), indicating slightly better ranking ability**.  
+✔ **Higher-ranked schools have significantly higher admission rates** (54.1% for Rank 1 vs. 17.9% for Rank 4).  
+✔ **GRE and GPA distributions suggest competitive applicants tend to have high scores**.  
 
 ---
+
+## **🔧 How to Run the Project**
+### **1️⃣ Clone this Repository**
+```sh
+git clone https://github.com/EvidenceM290/graduate-admissions-model.git
+cd graduate-admissions-model
+```
+
+### **2️⃣ Install Dependencies (for Python)**
+```sh
+pip install -r requirements.txt
+```
+
+### **3️⃣ Run the Jupyter Notebook**
+```sh
+jupyter notebook
+```
 
 ---
 
@@ -124,5 +140,3 @@ The **GPA scores** are also **right-skewed**, with a concentration of students h
 📂 **GitHub Portfolio:** [Your GitHub](your-github-url)
 
 ---
- 
-
