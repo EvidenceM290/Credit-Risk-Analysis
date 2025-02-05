@@ -38,7 +38,7 @@ The goal is to predict whether an applicant **will be admitted (1) or not admitt
  │   ├── Distribution of GRE.png *(GRE Score Distribution)*
  │   ├── GPA Distribution.png *(GPA Score Distribution)*
  │  
- ├── 📂 models/ *(Stored trained models if applicable)*
+ ├── 📂 models/ *(Refer to the knime file)*
  │   ├── decision_tree_model.pkl *(Trained Decision Tree Model)*
  │   ├── logistic_regression_model.pkl *(Trained Logistic Model)*
  │  
