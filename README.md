@@ -51,7 +51,7 @@ The goal is to predict whether an applicant **will be admitted (1) or not admitt
 ## **📌 Workflow Overview**
 This **KNIME Workflow** outlines the full **data preprocessing, model training, and evaluation process**.
 
-![Workflow](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Modelflow.png)
+![Workflow](https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model/tree/main/images/Modelflow.png)
 
 ---
 
@@ -61,7 +61,7 @@ This **KNIME Workflow** outlines the full **data preprocessing, model training, 
 The **Decision Tree Model** achieved a **True Positive Rate (TPR) of 37.5%**, meaning it correctly predicted **more actual admissions** compared to Logistic Regression.
 
 📌 **Confusion Matrix & Metrics**:  
-![Decision Tree Metrics](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Decision%20Model%20Metrics.png)
+![Decision Tree Metrics](https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model/tree/main/images/Decision%20Model%20Metrics.png)
 
 ---
 
@@ -69,7 +69,7 @@ The **Decision Tree Model** achieved a **True Positive Rate (TPR) of 37.5%**, me
 The **Logistic Regression Model** had a **True Positive Rate of only 18.8%**, meaning it struggled to correctly classify admitted students.
 
 📌 **Confusion Matrix & Metrics**:  
-![Logistic Regression Metrics](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Logit%20model-metrics.png)
+![Logistic Regression Metrics](https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model/tree/main/images/Logit%20model-metrics.png)
 
 ---
 
@@ -77,12 +77,12 @@ The **Logistic Regression Model** had a **True Positive Rate of only 18.8%**, me
 #### **🔹 Decision Tree ROC Curve**
 The **Decision Tree Model achieved an AUC score of 0.592**, indicating moderate predictive power.
 
-![Decision Tree ROC](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Decision%20Tree%20ROC%20Curve.png)
+![Decision Tree ROC](https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model/tree/main/images/Decision%20Tree%20ROC%20Curve.png)
 
 #### **🔹 Logistic Regression ROC Curve**
 The **Logistic Regression Model had an AUC score of 0.665**, showing slightly better performance at ranking high-potential applicants.
 
-![Logistic Regression ROC](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Logit%20ROC%20Curve.png)
+![Logistic Regression ROC](https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model/tree/main/images/Logit%20ROC%20Curve.png)
 
 ---
 
@@ -90,7 +90,7 @@ The **Logistic Regression Model had an AUC score of 0.665**, showing slightly be
 The **bar chart below shows admission rates by school rank**. **Higher-ranked schools (Rank 1) have a significantly higher admission rate (54.1%)** compared to lower-ranked schools (17.9% for Rank 4).
 
 📌 **Admission Rate by School Rank**:  
-![Admission by Rank](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Admission%20by%20rank.png)
+![Admission by Rank](https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model/tree/main/images/Admission%20by%20rank.png)
 
 ---
 
@@ -98,12 +98,12 @@ The **bar chart below shows admission rates by school rank**. **Higher-ranked sc
 #### **🔹 GRE Score Distribution**
 This histogram shows the distribution of **GRE scores** in the dataset. The scores are **slightly right-skewed**, indicating a concentration of high scores.
 
-![GRE Distribution](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/Distribution%20of%20GRE.png)
+![GRE Distribution](https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model/tree/main/images/Distribution%20of%20GRE.png)
 
 #### **🔹 GPA Score Distribution**
 The **GPA scores** are also **right-skewed**, with many applicants having **higher GPAs**.
 
-![GPA Distribution](https://raw.githubusercontent.com/EvidenceM290/graduate-admissions-model/main/images/GPA%20Distribution.png)
+![GPA Distribution](https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model/tree/main/images/GPA%20Distribution.png)
 
 ---
 
