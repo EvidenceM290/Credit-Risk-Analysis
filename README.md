@@ -82,7 +82,7 @@ The **Decision Tree Model achieved an AUC score of 0.592**, indicating moderate 
 #### **🔹 Logistic Regression ROC Curve**
 The **Logistic Regression Model had an AUC score of 0.665**, showing slightly better performance at ranking high-potential applicants.
 
-![Logistic Regression ROC](https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model/tree/main/images/Logit%20ROC%20Curve.png)
+![Logistic Regression ROC](https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model/blob/main/images/Logit%20ROC%20Curve.png)
 
 ---
 
