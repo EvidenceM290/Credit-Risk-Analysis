@@ -1,5 +1,3 @@
-You're right! The correct GitHub image links should match your actual repository structure. Below is the updated **README.md** with the **correct image links** using the proper GitHub raw URLs.
-
 ---
 
 # **🎓 Graduate Admissions Prediction Model**
@@ -25,9 +23,9 @@ The goal is to predict whether an applicant **will be admitted (1) or not admitt
  │   ├── admission.csv *(Raw data file)*
  │   ├── cleaned_admission.csv *(Processed dataset)*
  │  
- ├── 📂 notebooks/ *(Jupyter Notebooks & R scripts for model building)*
- │   ├── admission_prediction.ipynb *(Exploratory Data Analysis & Model Training)*
- │   ├── model_evaluation.ipynb *(Confusion Matrix, ROC Curve, AUC computation)*
+ ├── 📂 notebooks/ *(Knime, Jupyter Notebooks & R scripts for model building)*
+ │   ├── admission_prediction.knwf *(Exploratory Data Analysis & Model Training)*
+ │   ├──dmission_prediction.knwf(model_evaluation) *(Confusion Matrix, ROC Curve, AUC computation)*
  │  
  ├── 📂 images/ *(Screenshots & visualizations for better insights)*
  │   ├── Modelflow.png *(KNIME Workflow Overview)*
@@ -116,35 +114,12 @@ The **GPA scores** are also **right-skewed**, with many applicants having **high
 
 ---
 
-## **🔧 How to Run the Project**
-### **1️⃣ Clone this Repository**
-```sh
-git clone https://github.com/EvidenceM290/Graduate-Admissions-Prediction-Model.git
-cd Graduate-Admissions-Prediction-Model
-```
-
-### **2️⃣ Install Dependencies (for Python)**
-```sh
-pip install -r requirements.txt
-```
-
-### **3️⃣ Run the Jupyter Notebook**
-```sh
-jupyter notebook
-```
-
 ---
 
 ## **📬 Connect With Me**
 📧 **Email:** emadhume@smu.edu  
-🔗 **LinkedIn:** [Your Profile](your-linkedin-url)  
-📂 **GitHub Portfolio:** [Your GitHub](your-github-url)
+🔗 **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/evidence-madhume-874540204/)  
+📂 **GitHub Portfolio:** [MyGitHub](https://github.com/EvidenceM290/EvidenceM290/)
 
 ---
 
-### **🚀 Final Steps**
-✅ **Upload all images (`Modelflow.png`, `Decision Model Metrics.png`, etc.) to your GitHub repo.**  
-✅ **Copy & paste this updated `README.md` into your repo.**  
-✅ **Commit and push the changes!**  
-
-This **updated README** now has **correct image links** and **structured documentation** for **Graduate Admissions Model**, making it **clear and visually engaging**. 🚀 Let me know if you need further refinements! 😊
