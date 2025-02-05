@@ -25,9 +25,9 @@ By leveraging **financial history, demographic features, and past repayments**, 
  │   ├── loan_data.csv *(Raw data file)*
  │   ├── processed_loan_data.csv *(Cleaned dataset)*
  │  
- ├── 📂 notebooks/ *(Jupyter Notebooks & R scripts for model building)*
- │   ├── credit_risk_analysis.ipynb *(Exploratory Data Analysis & Model Training)*
- │   ├── model_evaluation.ipynb *(Confusion Matrix, ROC Curve, AUC computation)*
+ ├── 📂 notebooks/ *(Knime, Jupyter Notebooks & R scripts for model building)*
+ │   ├── Credit Risk Analysis.knwf *(Exploratory Data Analysis & Model Training)*
+ │   ├── Credit Risk Analysis.knwf *(Confusion Matrix, ROC Curve, AUC computation)*
  │  
  ├── 📂 images/ *(Screenshots & visualizations for better insights)*
  │   ├── Modelflow.png *(KNIME Workflow Overview)*
