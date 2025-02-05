@@ -1,3 +1,4 @@
+
 ---
 
 # **📊 Credit Risk Analysis: Predicting Loan Defaults**  
@@ -115,6 +116,23 @@ The **GPA scores** are also **right-skewed**, with a concentration of students h
 
 ---
 
+## **🔧 How to Run the Project**
+### **1️⃣ Clone this Repository**
+```sh
+git clone https://github.com/EvidenceM290/credit-risk-analysis.git
+cd credit-risk-analysis
+```
+
+### **2️⃣ Install Dependencies (for Python)**
+```sh
+pip install -r requirements.txt
+```
+
+### **3️⃣ Run the Jupyter Notebook**
+```sh
+jupyter notebook
+```
+
 ---
 
 ## **📬 Connect With Me**
@@ -124,4 +142,8 @@ The **GPA scores** are also **right-skewed**, with a concentration of students h
 
 ---
 
+### **🚀 Final Steps**
+✅ **Upload all images (`Modelflow.png`, `Decision Model Metrics.png`, etc.) to your GitHub repo.**  
+✅ **Copy & paste this updated `README.md` into your repo.**  
+✅ **Commit and push the changes!**  
 
