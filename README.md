@@ -1,4 +1,7 @@
+Here is your updated **README.md** for the **Credit Risk Analysis** project, with the correct image names as per your uploaded files.
+
 ---
+
 # **📊 Credit Risk Analysis: Predicting Loan Defaults**  
 
 ## 🚀 **Project Overview**  
@@ -114,10 +117,35 @@ The **GPA scores** are also **right-skewed**, with a concentration of students h
 
 ---
 
-## **📬 Connect With Me**
-📧 **Email:** emadhume@smu.edu  
-🔗 **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/evidence-madhume-874540204/)  
-📂 **GitHub Portfolio:** [GitHub](https://github.com/EvidenceM290/EvidenceM290/)
+## **🔧 How to Run the Project**
+### **1️⃣ Clone this Repository**
+```sh
+git clone https://github.com/EvidenceM290/credit-risk-analysis.git
+cd credit-risk-analysis
+```
+
+### **2️⃣ Install Dependencies (for Python)**
+```sh
+pip install -r requirements.txt
+```
+
+### **3️⃣ Run the Jupyter Notebook**
+```sh
+jupyter notebook
+```
 
 ---
 
+## **📬 Connect With Me**
+📧 **Email:** emadhume@smu.edu  
+🔗 **LinkedIn:** [Your Profile](your-linkedin-url)  
+📂 **GitHub Portfolio:** [Your GitHub](your-github-url)
+
+---
+
+### **🚀 Final Steps**
+✅ **Upload all images (`Modelflow.png`, `Decision Model Metrics.png`, etc.) to your GitHub repo.**  
+✅ **Copy & paste this updated `README.md` into your repo.**  
+✅ **Commit and push the changes!**  
+
+This **enhanced README** provides a **clear, structured, and visually engaging** presentation of your **Credit Risk Analysis project**, making it **stand out to recruiters and collaborators**! 🚀 Let me know if you need any further refinements! 😊
